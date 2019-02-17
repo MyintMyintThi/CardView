@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/jennie"
+
+                />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="420dp"
+                    android:gravity="center"
+                    android:text="JENNIE"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="40dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/antquab"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:fontFamily="@font/antquab"
+                    android:layout_marginTop="450dp"
+                    android:text="SOLO"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="100dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="550dp"
+                    android:gravity="center"
+                    android:fontFamily="@font/antquab"
+                    android:text="First Single and M/V Release"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="570dp"
+                android:fontFamily="@font/antquab"
+                android:gravity="center"
+                android:text="November 12, 2018"
+                android:textColor="@color/colorAccent"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="600dp"
+                android:fontFamily="@font/antquab"
+                android:gravity="center"
+                android:text="2018 YG ENTERTAINMENT INC"
+                android:textColor="@color/colorAccent"
+                android:textSize="10dp"
+                android:textStyle="bold" />
+
+
+        </FrameLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
